@@ -1,5 +1,5 @@
 """
-Ayurveda Dosha Prediction System
+Ayurveda Dosha Prediction model
 -------------------------------------------
 
 File: predict.py
@@ -19,7 +19,7 @@ Required Files:
 - model/label_encoder.pkl
 
 Author: Diksha Sharma
-Project: Dosha Prediction System
+Project: Dosha Prediction model
 """
 
 import pickle
