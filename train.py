@@ -1,5 +1,5 @@
 """
-Ayurveda Dosha Prediction System
+Ayurveda Dosha Prediction model
 -------------------------------------------
 
 File: train.py
@@ -22,7 +22,7 @@ Output Files:
 - grid_search.pkl → GridSearchCV object for analysis
 
 Author: Diksha Sharma
-Project: Dosha Prediction System
+Project: Dosha Prediction model
 """
 
 
