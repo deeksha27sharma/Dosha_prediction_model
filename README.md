@@ -1,4 +1,4 @@
-# Dosh_model_prediction
+# Dosha_prediction_model
 # 🧠 Ayurveda Dosha Prediction System
 
 A Machine Learning system that predicts a person’s Ayurvedic Dosha (Vata, Pitta, Kapha) using physiological, lifestyle, and symptom data. The model is optimized using GridSearchCV and provides confidence scores for each prediction.
