@@ -1,5 +1,5 @@
 """
-Ayurveda Dosha Prediction model
+Ayurveda Dosha Prediction System
 -------------------------------------------
 
 File: predict.py
@@ -19,7 +19,7 @@ Required Files:
 - model/label_encoder.pkl
 
 Author: Diksha Sharma
-Project: Dosha Prediction model
+Project: Dosha Prediction System
 """
 
 import pickle
@@ -77,3 +77,56 @@ sample = {
 }
 
 predict_dosha_with_confidence(sample)
+
+sample1 = {
+    "Age": 62,
+    "Gender": "Female",
+    "Prakriti": "Vata",
+    "Symptoms": "chills, insomnia",
+    "Stress Level": "moderate",
+    "Sleep Pattern": "Insomnia",
+    "Diet Type": "Vegetarian",
+    "Season": "greeshma",
+    "Climate": "dry"
+}
+
+predict_dosha_with_confidence(sample1)
+
+sample2 = {
+    "Age": 25,
+    "Gender": "Female",
+    "Prakriti": "pitta",
+    "Symptoms": "burning sensation, high fever",
+    "Stress Level": "High",
+    "Sleep Pattern": "Insomnia",
+    "Diet Type": "Vegetarian",
+    "Season": "Winter",
+    "Climate": "Cold"
+}
+predict_dosha_with_confidence(sample2)
+
+sample3 = {
+    "Age": 25,
+    "Gender": "Female",
+    "Prakriti": "kapha-Pitta",
+    "Symptoms": "pale color, sluggish evacuation, coldness, heaviness",
+    "Stress Level": "High",
+    "Sleep Pattern": "Insomnia",
+    "Diet Type": "Vegetarian",
+    "Season": "Winter",
+    "Climate": "Cold"
+}
+predict_dosha_with_confidence(sample3)
+
+# sample4 = {
+#     "Age": 25,
+#     "Gender": "Female",
+#     "Prakriti": "Vata",
+#     "Symptoms": "dry skin, anxiety, constipation",
+#     "Stress Level": "High",
+#     "Sleep Pattern": "Insomnia",
+#     "Diet Type": "Vegetarian",
+#     "Season": "Winter",
+#     "Climate": "Cold"
+# }
+# predict_dosha_with_confidence(sample4)
